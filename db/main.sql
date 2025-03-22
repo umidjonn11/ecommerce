@@ -10,7 +10,7 @@ CREATE TYPE ecommerce.product_status AS ENUM (
 
 -- 3. countries jadvalini yaratish
 CREATE TABLE countries (
-    id INTEGER PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     continent VARCHAR(50) NOT NULL
 );
